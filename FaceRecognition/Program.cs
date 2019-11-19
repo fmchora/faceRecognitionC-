@@ -14,6 +14,8 @@ namespace FaceRecognition
         [STAThread]
         static void Main()
         {
+            DBHelper.test();
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new start());
